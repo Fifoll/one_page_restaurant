@@ -77,4 +77,21 @@ p {
   margin-top: 15px;
 }
 
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 740px;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 740px;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .container {
+    max-width: 1120px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
