@@ -1,0 +1,21 @@
+@use '../01-settings/' as *;
+
+@mixin medium {
+
+    @media screen and (min-width: $bp-md) {
+        @content;
+    }
+    @content;
+}
+
+@mixin large {
+
+    @media screen and (min-width: $bp-lg) {
+        @content;
+    }
+    
+}
+
+
+
+
