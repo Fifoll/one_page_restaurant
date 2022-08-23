@@ -111,7 +111,6 @@ p {
 .col {
   width: 100%;
   padding: 0 15px 15px 15px;
-  border: 1px solid red;
 }
 .col--md50 {
   flex: 0 0 50%;
@@ -193,6 +192,19 @@ p {
   height: 10rem;
   line-height: 10rem;
   padding: 0;
+}
+
+.site-header {
+  background: url("../assets/img/start.jpeg") center/cover;
+  height: 100vh;
+  position: relative;
+}
+.site-header__button {
+  position: absolute;
+  bottom: 15%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
