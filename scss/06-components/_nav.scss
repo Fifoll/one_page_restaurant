@@ -1,0 +1,28 @@
+@use '../01-settings/' as *;
+@use '../02-tools/' as *;
+
+
+.nav {
+
+    &__item {
+        font-size: 3.2rem;
+        display: block;
+        @include medium {
+            display: inline-block;
+            width: 23%;
+        }
+    }
+
+    &__link {
+        color: $color-white;
+        width: 100%;
+        padding: $grid-base;
+        border-radius: .4rem;
+        text-align: center;
+        transition: .3s;
+        &:hover {
+            background-color: $color-red;
+        }
+    }
+
+}
