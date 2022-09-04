@@ -257,6 +257,43 @@ p {
   font-family: Roboto, sans-serif;
 }
 
+.form {
+  width: 90%;
+}
+@media screen and (min-width: 768px) {
+  .form {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .form {
+    width: 40%;
+  }
+}
+.form__label {
+  font-size: 1.8rem;
+  margin: 0.6rem 0;
+  display: block;
+}
+.form__item {
+  color: #eff0f3;
+  display: block;
+  width: 100%;
+  font-size: 1.6rem;
+  padding: 1.4rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 1px solid #eff0f3;
+  border-radius: 5px;
+  outline: none;
+  resize: none;
+  font-family: inherit;
+  transition: 0.3s;
+}
+.form__item:focus {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #eff0f3;
+}
+
 .site-header {
   background: url("../assets/img/start.jpeg") center/cover;
   height: 100vh;
@@ -328,6 +365,7 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-family: Roboto, sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
