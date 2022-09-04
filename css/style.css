@@ -289,6 +289,12 @@ p {
   font-family: inherit;
   transition: 0.3s;
 }
+.form__item--btn {
+  cursor: pointer;
+}
+.form__item--btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
 .form__item:focus {
   background-color: rgba(255, 255, 255, 0.2);
   color: #eff0f3;
@@ -367,5 +373,11 @@ p {
   transform: translate(-50%, -50%);
   font-family: Roboto, sans-serif;
 }
+
+.text-color-white {
+  color: #eff0f3;
+}
+
+/*klasy pomocnicze */
 
 /*# sourceMappingURL=style.css.map */
