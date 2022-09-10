@@ -1,0 +1,46 @@
+@use '../02-tools/' as *;
+
+.cookies {
+    // display: none;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    line-height: 1.8rem;
+    padding: .5rem;
+    background-color: #000;
+    color: #fff;
+
+    &__text {
+        width: 70%;
+        text-align: justify;
+        padding: .5rem;
+
+        @include medium {
+            width: 90%;
+            text-align: center;
+        }
+    }
+
+    &__close {
+        width: 30%;
+        position: absolute;
+        top: .5rem;
+        right: .5rem;
+        text-align: center;
+
+        @include medium {
+            width: 10%;
+        }
+
+        & a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 24px;
+        }
+    }
+}
+
+.site-body__cookie {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
