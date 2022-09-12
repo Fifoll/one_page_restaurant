@@ -335,6 +335,10 @@ p {
   text-decoration: none;
   color: #fff;
   font-size: 24px;
+  transition: 0.3s;
+}
+.cookies__close a:hover {
+  color: red;
 }
 
 .site-body__cookie {
